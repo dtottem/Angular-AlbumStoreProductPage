@@ -1,0 +1,180 @@
+.modal.is-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    }
+    .modal-card{
+    background-color: #efefef;
+    border-radius: 1rem;
+    height:90%;
+    width: 70%;
+    align-self: center; 
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .body-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1%;
+    width: 100%;
+    }
+    .notes{
+    position: absolute;
+    font-size:1.2rem;
+    overflow-y: scroll;
+    width: 97%;
+    height: 30%;
+    }
+    .modal .modal-header{
+    display: flex;
+    flex-direction:column;
+    padding: .5rem;
+    border-radius: 1rem 1rem 0 0;
+    /* background-color: #b7d3e6; */
+    
+    }
+    .modal .modal-body{
+    background: white;
+    flex-grow: 16;
+    overflow-y: scroll;
+    }
+    .card  {
+        display: flex;
+        flex-direction: row !important;
+    }
+    .bottom {
+        height: auto;
+    }
+    .modal .modal-footer{
+    flex-grow: 1;
+    flex-direction: row;
+    }
+    .btn-secondary{
+    width: auto;
+    }
+    .group-start{
+    padding: .5rem .25rem 0.5rem .25rem;
+    font-size: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    }
+    .group{
+            font-size: inherit;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            font-size: 1rem;
+    }
+    .control-small{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .check-box{
+        padding-left: .5rem;
+      font-size: inherit;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      }
+    .control-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    width: 100%; 
+    }
+    .expanded{
+    flex-grow: 1;
+    border-radius: .25rem;
+    background:white;
+    }
+    .alert {
+      font-size: 14px;
+      padding: .2rem;
+      margin-bottom: 0rem;
+    }
+    .error{
+      display:flex;
+      flex-direction:column;
+    }
+    .warning{
+      border-color:rgb(232, 187, 12)
+    }
+    .heading{
+    display: flex;
+    flex-direction: row;
+    }
+    .h5{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row
+    }
+    .typahead{
+    width: 100%;
+    }
+    .start{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+    .end{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+    .center{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+    .is-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+    }
+    .label {
+        width: 35%;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .elem {
+        width: 65%;
+        display: flex;
+      }
+      .elemSite {
+        width: 10%;
+        display: flex; 
+      }
+      
+      .left-elem {
+        width: 100%;
+      }
+      .right-elem {
+        width: 100%;
+      }
+      .routing-modal {
+        display: flex;
+        overflow-y: auto;
+      }
+    
+    
